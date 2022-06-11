@@ -2,7 +2,7 @@
 <img src="MathiyaBot.jpg" alt="nz" width="350"/>
 </p>
 
-## King-Mathiya
+## King-Mathiya-MD-WhatsApp-Bot
 
 > <a href="https://youtu.be/W-QCp2fWRTo">
 
