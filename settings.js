@@ -19,8 +19,8 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['Your Number']
-global.premium = ['Your Number']
+global.owner = ['94779499811']
+global.premium = ['94779499811']
 global.ownernomer = 'Your Number'
 global.ownername = 'KING MATHIYA'
 global.botname = 'KING MATHIYA MD'
@@ -32,7 +32,7 @@ global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
 global.packname = 'Gojo-Satoru'
 global.author = 'MATHIYA '
 global.sessionName = 'session'
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['','!','.','👩‍❤️‍👨','♦️','🎲']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
