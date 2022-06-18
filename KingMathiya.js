@@ -200,11 +200,11 @@ module.exports = GojoMdNx = async (GojoMdNx, m, chatUpdate, store) => {
 	
 	//group target \\
 const reply = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Qᴜᴇᴇɴ ʙɪxʙʏ-ᴍᴅ  xᴇʀ ʙᴏᴛ`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/tgmd.jpg`),"sourceUrl": "https://telegra.ph/file/33d3f966368a28e47e183.png"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `King Mathiya-MD BOT`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/tgmd.jpg`),"sourceUrl": "https://telegra.ph/file/33d3f966368a28e47e183.png"}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Qᴜᴇᴇɴ ʙɪxʙʏ-ᴍᴅ xᴇʀ ʙᴏᴛ`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/tgmd.jpg`),"sourceUrl": "https://telegra.ph/file/33d3f966368a28e47e183.png"}}}, { quoted: m})
+            GojoMdNx.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `King Mathiya-MD BOT`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./GojoMedia/tgmd.jpg`),"sourceUrl": "https://telegra.ph/file/33d3f966368a28e47e183.png"}}}, { quoted: m})
         }
 	
         //Public & Self\\
@@ -258,7 +258,7 @@ const reply = (teks) => {
         //auto reply 
         for (let anji of setik){
 				if (budy === anji){
-					result = fs.readFileSync(`./GojoMedia/sticker/${anji}.webp`)
+					result = fs.readFileSync(`./GojoMedia/sticker/${mathiya}.webp`)
 					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
 			}
@@ -1615,14 +1615,14 @@ teks_vote = `*❦VOTE ❦*
 
 *Reason:* ${vote[m.chat][0]}
 
-┌ BIXBY VOTING
+┌ KING MATHIYA VOTING
 │ 
 ┃║🔮  Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `┃║🔮  ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌ BIXBY VOTING
+┌ KING MATHIYA VOTING
 │ 
 ┃║🔮  Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `┃║🔮  ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1696,7 +1696,7 @@ break
                         { buttonId: 'antilink on', buttonText: { displayText: 'ON' }, type: 1 },
                         { buttonId: 'antilink off', buttonText: { displayText: 'OFF' }, type: 1 }
                     ]
-                    await GojoMdNx.sendButtonText(m.chat, buttons, `Antilink Mode by Bixby-MD`, GojoMdNx.user.name, m)
+                    await GojoMdNx.sendButtonText(m.chat, buttons, `Antilink Mode by King Mathiya-MD`, GojoMdNx.user.name, m)
                 }
              }
              break
@@ -1714,8 +1714,8 @@ break
                 reply(`${GojoMdNx.user.name} Has Been Unmuted In This Group!`)
                 } else {
                  let buttons = [
-                        { buttonId: 'mute on', buttonText: { displayText: 'BIXBY MUTE' }, type: 1 },
-                        { buttonId: 'mute off', buttonText: { displayText: 'BIXBY UNMUTE' }, type: 1 }
+                        { buttonId: 'mute on', buttonText: { displayText: 'KING MATHIYA BOT MUTE' }, type: 1 },
+                        { buttonId: 'mute off', buttonText: { displayText: 'KING MATHIYA BOT UNMUTE' }, type: 1 }
                     ]
                     await GojoMdNx.sendButtonText(m.chat, buttons, `Mute Bot`, GojoMdNx.user.name, m)
                 }
@@ -1776,7 +1776,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `❦GOJO-SATORU HERE🎉 ❦\n\n${text}`
+                      let txt = `❦KING MATHIYA HERE🎉 ❦\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1810,7 +1810,7 @@ break
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `❦QUEEN BIXBY HERE 🎉❦\n\n${text}`
+                      let txt = `❦KING MATHIYA HERE 🎉❦\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
@@ -2076,7 +2076,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: images },
-                    caption: `╭───BIXBY IMAGE SEARCH───╮
+                    caption: `╭───KING MATHIYA IMAGE SEARCH───╮
 │🏓.  *Query* : ${text}
 │🔗.  *Media Url* : ${images}
 ╰────────────────`,
@@ -2100,7 +2100,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `╭─⎝ ☕ Qᴜᴇᴇɴ ʙɪxʙʏ-ᴍᴅ ᴇᴅɪᴛɪᴏɴ ☕ ⎠─
+                    caption: `╭ ☕ King Mathiya-MD Edition ☕ ─
 │🔮. Title : ${anu.title}
 │📰. ID : ${anu.videoId}
 │💡. Duration : ${anu.timestamp}
@@ -2110,7 +2110,7 @@ break
 │🎯. Channel : ${anu.author.url}
 │❄️. Url : ${anu.url}
 ╰─────────────────┤`,
-                    footer:  'Qᴜᴇᴇɴ ʙɪxʙʏ-ᴍᴅ ᴘᴜʙʟɪᴄ  ʙᴏᴛ xʀ',
+                    footer:  'King Mathiya-MD Public Bot',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2129,14 +2129,14 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: `╭─⎝ ☕ Qᴜᴇᴇɴ ʙɪxʙʏ-ᴍᴅ ʙᴏᴛ ☕ ⎠──            
+                    caption: `╭☕ King Mathiya-MD Bot ☕──            
 │🛢️. Title : ${anu.title}
 │📼.  Duration : ${anu.timestamp}
 │📱.  Viewes : ${anu.views}
 │🔏.  Uploaded On : ${anu.ago}
 │✏.  Url : ${anu.url}
 ╰───────────────`,
-                    footer: 'Qᴜᴇᴇɴ ʙɪxʙʏ-ᴍᴅ ᴘᴜʙʟɪᴄ ʙᴏᴛ xʀ',
+                    footer: 'King Mathiya-MD Public Edition Bot',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3347,7 +3347,7 @@ reply("Success Changing Menu To "+q)
 break
                     case 'bug': case 'report': {
                     	if(!text) return reply(`Enter The Bug\n\nExample: ${command} Menu Error`)
-                    	GojoMdNx.sendMessage(`94711421243@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	GojoMdNx.sendMessage(`94779499811@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -3358,7 +3358,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Hi ${pushname}`,
-                    description: `╭─⎝ ☕ Qᴜᴇᴇɴ ʙɪxʙʏ-ᴍᴅ ᴇᴅɪᴛɪᴏɴ ☕ ⎠──\n\n │💻.  Bot Name : ${global.botname}
+                    description: `╭☕ King-MAthiya-MD-Edition☕ ──\n\n │💻.  Bot Name : ${global.botname}
 \n│💻. Owner Name : ${global.ownername}
 \n│💻.  Plat Form : ${os.platform()}
 \n│💻.  Runtime : ${runtime(process.uptime())}\n\n╰──────────────────
@@ -3478,7 +3478,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://darkalphaxteam/Queen-Bixby-MD\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`GitHub : https://github.com/Mathiya578/King-Mathiya-MD-Whatsapp-Bot\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
             }
             break
 
@@ -3632,17 +3632,17 @@ case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 
-  🔮 BIXBY-MD DOWNLOAD MENU 🔮
-☕. ${prefix}ytmp3 - Youtube Url පමනක් යොදන්න ( 128kbps)
-☕. ${prefix}fsong - ගීත ලබාගැනීමට Youtube Link ලබාදෙන්න. (320kbps)
-☕. ${prefix}video -  Youtube  මගින් Mp4 ලබා ගැනීම නමක් පමනක් යොදන්න
-☕. ${prefix}song - ගීතයක නමක් යොදන්න
-☕. ${prefix}dvideo - yt link පමනක් ලබාදෙන්න
-☕. ${prefix}tiktok - Tiktok Video  බාගත කිරීමට
-☕. ${prefix}fb - FaceBook Video  බාගත කිරීමට
-☕. ${prefix}ytmp4 - Video  ලබාගැනීමට Youtube Link මගින් (360p)
-☕. ${prefix}wallpaper - Wallpaper  ලබා ගැනීමට
-☕. ${prefix}Img - Google Images ලබා ගැනීමට
+  🔮 KING-MATHIYA DOWNLOAD MENU 🔮
+☕. ${prefix}ytmp3 - Only Give a Youtube Url  ( 128kbps)
+☕. ${prefix}fsong - Download Song / Give A Youtube Link  (320kbps)
+☕. ${prefix}video -  Download Youtube  Mp4 /Only Give A Name
+☕. ${prefix}song - Give A Song Name
+☕. ${prefix}dvideo - Give a yt link 
+☕. ${prefix}tiktok - Download Tiktok Video 
+☕. ${prefix}fb - Download FaceBook Video  
+☕. ${prefix}ytmp4 - Download Video From Youtube Link  (360p)
+☕. ${prefix}wallpaper - Download  Wallpaper  
+☕. ${prefix}Img - Download Google Images 
 `,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GIT HUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "DONATE","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
 case 'searchmenu':
@@ -3872,9 +3872,9 @@ break
                     {buttonId: `ping`, buttonText: {displayText: 'SYSTEM STATUS'}, type: 1}
                 ]
                 let buttonMessage = {
-                    image: fs.readFileSync('./GojoMedia/ttg.jpg'),
-                    caption: `╭─⎝ ☕ Qᴜᴇᴇɴ ʙɪxʙʏ-ᴍᴅ ᴇᴅɪᴛɪᴏɴ ☕ ⎠─ 
-│💻. DEVELOPER : DARK ALPHA
+                    image: fs.readFileSync('./GojoMedia/mathiyabotv1.jpg'),
+                    caption: `╭─⎝ ☕ King Mathiya MD Edition ☕ ⎠─ 
+│💻. DEVELOPER : KING MATHIYA
 │💻. RUNTIME : ${runtime(process.uptime())}
 │💻. BOT NAME : ${global.botname}
 │💻. OWNER NAME : ${global.ownername}
@@ -3882,7 +3882,7 @@ break
 │💻. PLATFORM : ${os.platform()}
 │💻. TOTAL USERS : ${Object.keys(global.db.data.users).length}
 ╰─────────────────── `,
-                    footer:  'Qᴜᴇᴇɴ ʙɪxʙʏ-ᴍᴅ ᴘᴜʙʟɪᴄ ʙᴏᴛ',
+                    footer:  'King Mathiya Public Bot',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3893,10 +3893,10 @@ break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-Thanks to Me ( DJ Thinura Jay)
+Thanks to Me ( Sohan Matheesha)
 Alien-Alfa (For helping me to deploy qr in replit and answered my every doubts regard this project)
 DGXeon , NexusMw ( 95% Credits goes to them ,in this script)
-And Again Me (Thinura) 🔮 Who Helped Assemble This Script !!!`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GIT HUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "DONATE","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
+And Again Me (Sohan) 🔮 Who Helped Assemble This Script !!!`,unicorn, [{"urlButton": {"displayText": "YOUTUBE","url": `${myweb}`}},{"urlButton": {"displayText": "GIT HUB","url": `${sc}`}},{"quickReplyButton": {"displayText": "DONATE","id": 'donate'}},{"quickReplyButton": {"displayText": "OWNER","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
