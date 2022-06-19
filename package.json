@@ -1,5 +1,5 @@
 {
-  "name": "King-Mathiya",
+  "name": "Gojo-Satoru",
   "version": "2.0.0",
   "description": "WhatsApp Using Lib Baileys Multi Device",
   "main": "index.js",
@@ -64,7 +64,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mathiya578/KING-Mathiya-MD-Bot.git"
+    "url": "git+https://github.com/nexusNw/Gojo-Satoru.git"
   },
   "bugs": {
     "url": "https://github.com/nexusNw/Gojo-Satoru/issues"
