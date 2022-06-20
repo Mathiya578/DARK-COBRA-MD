@@ -3872,7 +3872,7 @@ break
                     {buttonId: `ping`, buttonText: {displayText: 'SYSTEM STATUS'}, type: 1}
                 ]
                 let buttonMessage = {
-                    image: fs.readFileSync('./GojoMedia/mathiyabotv1.jpg'),
+                    image: fs.readFileSync('./GojoMedia/mathiya123.jpg'),
                     caption: `╭─⎝ ☕ King Mathiya MD Edition ☕ ⎠─ 
 │💻. DEVELOPER : KING MATHIYA
 │💻. RUNTIME : ${runtime(process.uptime())}
