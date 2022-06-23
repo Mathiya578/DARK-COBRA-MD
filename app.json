@@ -1,8 +1,8 @@
 {
-  "name": "King-Mathiya-MD",
-  "description": "King Mathiya Whatsapp MD Bot ",
-  "repository": "https://github.com/Mathiya578/King-Mathiya-MD-Whatsapp-Bot",
-  "logo": "MathiyaBot.jpg",
+  "name": "King Mathiya-MD",
+  "description": "WhatsApp MD bot build with nodejs",
+  "repository": "https://github.com/darkalphaxteam/Queen-Bixby-MD",
+  "logo": "https://i.ibb.co/PcQYF7c/djt.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
@@ -10,9 +10,6 @@
     },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
     },
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
