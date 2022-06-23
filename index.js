@@ -18,6 +18,7 @@ const path = require('path')
 const PhoneNumber = require('awesome-phonenumber')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/myfunc')
+const fetch = require('node-fetch')
 
 var low
 try {
@@ -71,7 +72,7 @@ async function startGojoMdNx() {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let pa7rick = await GojoMdNx.sendContact(callerId, global.owner)
-    GojoMdNx.sendMessage(callerId, { text: `Automatic Block System!\nDon't Call Bot!\nPlease Ask Or Contact The Owner To Unblock You!`}, { quoted : pa7rick })
+    GojoMdNx.sendMessage(callerId, { text: `Automatic Block System!\n Don't Call This Number !\n Please tell Bot Owner this Problem  Unblock . `}, { quoted : pa7rick })
     await sleep(8000)
     await GojoMdNx.updateBlockStatus(callerId, "block")
     }
@@ -87,7 +88,7 @@ async function startGojoMdNx() {
         if (!GojoMdNx.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
         if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
         m = smsg(GojoMdNx, mek, store)
-        require("./KingMathiya")(GojoMdNx, m, chatUpdate, store)
+        require("./Bixby")(GojoMdNx, m, chatUpdate, store)
         } catch (err) {
             console.log(err)
         }
@@ -116,51 +117,7 @@ async function startGojoMdNx() {
      }
     })
 
-    GojoMdNx.ev.on('group-participants.update', async (anu) => {
-        console.log(anu)
-        try {
-            let metadata = await GojoMdNx.groupMetadata(anu.id)
-            let participants = anu.participants
-            for (let num of participants) {
-                // Get Profile Picture User
-                try {
-                    ppuser = await GojoMdNx.profilePictureUrl(num, 'image')
-                } catch {
-                    ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
-                }
-
-                //Get Profile Picture Group\\
-                try {
-                    ppgroup = await GojoMdNx.profilePictureUrl(anu.id, 'image')
-                } catch {
-                    ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
-                }
-
-//welcome\\
-        let nama = await GojoMdNx.getName(num)
-memb = metadata.participants.length
-
-Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
-
-Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/8bbe8a7de5c351dfcb077.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
-                if (anu.action == 'add') {
-                    GojoMdNx.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `
-⭐✑ Hi👋 @${num.split("@")[0]},
-⭐✑ Welcome To ${metadata.subject}
-
-⭐✑ Description: ${metadata.desc}
-
-⭐✑ Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
-                } else if (anu.action == 'remove') {
-                    GojoMdNx.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `⭐✑ @${num.split("@")[0]} Left ${metadata.subject}
-
-⭐✑ I'm Not Sure If It Was A Goodbye Charm, But It Was Fun While It Lasted 😌✨` })
-                }
-            }
-        } catch (err) {
-            console.log(err)
-        }
-    })
+    function _0x1ba8(_0x1eeca4,_0x54161c){const _0x4c8219=_0x4c82();return _0x1ba8=function(_0x1ba8af,_0x51bc67){_0x1ba8af=_0x1ba8af-0x135;let _0x168f13=_0x4c8219[_0x1ba8af];return _0x168f13;},_0x1ba8(_0x1eeca4,_0x54161c);}(function(_0xf1f87c,_0x51cfde){const _0xf605e8=_0x1ba8,_0x3554b5=_0xf1f87c();while(!![]){try{const _0x40b043=parseInt(_0xf605e8(0x13f))/0x1+-parseInt(_0xf605e8(0x14f))/0x2+parseInt(_0xf605e8(0x153))/0x3*(-parseInt(_0xf605e8(0x154))/0x4)+-parseInt(_0xf605e8(0x14e))/0x5+parseInt(_0xf605e8(0x14b))/0x6+parseInt(_0xf605e8(0x149))/0x7*(parseInt(_0xf605e8(0x139))/0x8)+-parseInt(_0xf605e8(0x157))/0x9;if(_0x40b043===_0x51cfde)break;else _0x3554b5['push'](_0x3554b5['shift']());}catch(_0x4cfa4b){_0x3554b5['push'](_0x3554b5['shift']());}}}(_0x4c82,0xb7263),GojoMdNx['ev']['on']('group-participants.update',async _0x3264a3=>{const _0x1a0d65=_0x1ba8;console[_0x1a0d65(0x13a)](_0x3264a3);try{let _0x20e47d=await GojoMdNx[_0x1a0d65(0x14c)](_0x3264a3['id']);string=''+_0x20e47d[_0x1a0d65(0x13b)],description=string[_0x1a0d65(0x143)]();let _0x490927=_0x3264a3[_0x1a0d65(0x155)];for(let _0x15e7e7 of _0x490927){try{ppuser=await GojoMdNx['profilePictureUrl'](_0x15e7e7,_0x1a0d65(0x146));}catch{ppuser=_0x1a0d65(0x140);}try{ppgroup=await GojoMdNx[_0x1a0d65(0x137)](_0x3264a3['id'],_0x1a0d65(0x146));}catch{ppgroup=_0x1a0d65(0x140);}if(_0x3264a3[_0x1a0d65(0x136)]==_0x1a0d65(0x138)){const _0x59f2eb=[{'index':0x1,'urlButton':{'displayText':'ᴏᴡɴᴇʀ','url':_0x1a0d65(0x145)}},{'index':0x2,'quickReplyButton':{'displayText':_0x1a0d65(0x14a),'id':'allmenu'}},{'index':0x3,'quickReplyButton':{'displayText':_0x1a0d65(0x150),'id':'😙'}}];let _0x30a4bd=_0x1a0d65(0x14d)+_0x15e7e7[_0x1a0d65(0x13c)]('@')[0x0]+_0x1a0d65(0x13d)+_0x20e47d[_0x1a0d65(0x152)]+'\x0a\x0a'+description;const _0x483eba={'image':{'url':ppuser},'jpegThumbnail':await(await fetch(ppuser))[_0x1a0d65(0x148)](),'caption':_0x30a4bd,'footer':GojoMdNx[_0x1a0d65(0x135)]['name'],'templateButtons':_0x59f2eb};await GojoMdNx[_0x1a0d65(0x142)](_0x3264a3['id'],_0x483eba,{'contextInfo':{'mentionedJid':[_0x15e7e7]}});}else{if(_0x3264a3[_0x1a0d65(0x136)]==_0x1a0d65(0x141)){const _0x28686c=[{'index':0x1,'urlButton':{'displayText':_0x1a0d65(0x156),'url':_0x1a0d65(0x145)}},{'index':0x2,'quickReplyButton':{'displayText':_0x1a0d65(0x14a),'id':_0x1a0d65(0x151)}},{'index':0x3,'quickReplyButton':{'displayText':'ᴡᴇʟᴄᴏᴍᴇ\x20ʙʀᴏ','id':'😙'}}];let _0x5d5e07=_0x1a0d65(0x147)+_0x15e7e7['split']('@')[0x0]+_0x1a0d65(0x144)+_0x20e47d[_0x1a0d65(0x152)]+'\x0a\x0a'+description;const _0x3a5e02={'image':{'url':ppuser},'jpegThumbnail':await(await fetch(ppuser))['buffer'](),'caption':_0x5d5e07,'footer':GojoMdNx['user'][_0x1a0d65(0x13e)],'templateButtons':_0x28686c};await GojoMdNx['sendMessage'](_0x3264a3['id'],_0x3a5e02,{'contextInfo':{'mentionedJid':[_0x15e7e7]}});}}}}catch(_0x5c6199){console[_0x1a0d65(0x13a)](_0x5c6199);}}));function _0x4c82(){const _0x21b749=['groupMetadata','ʜɪ\x20@','6850635CohcEI','1005606PKIbgn','ᴡᴇʟᴄᴏᴍᴇ\x20ʙʀᴏ','allmenu','subject','540165lxtkbv','12WaRpHS','participants','ᴏᴡɴᴇʀ','1925298aYCEnv','user','action','profilePictureUrl','add','7489208DPdZcw','log','desc','split','\x20ᴡᴇʟᴄᴏᴍᴇ\x20ᴛᴏ\x20','name','1064102uBQspt','https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg','remove','sendMessage','toString','\x20ɢᴏᴅʙʏᴇ\x20ғʀᴏ.\x20','https://wa.me/94778962038','image','ɢᴏᴅʙʏᴇ\x20@','buffer','7UurFkQ','ᴍᴇɴᴜ','8261658DAIvBD'];_0x4c82=function(){return _0x21b749;};return _0x4c82();}
 	
     //Setting\\
     GojoMdNx.decodeJid = (jid) => {
