@@ -1,7 +1,7 @@
 {
   "name": "King Mathiya-MD",
   "description": "WhatsApp MD bot build with nodejs",
-  "repository": "https://github.com/darkalphaxteam/Queen-Bixby-MD",
+  "repository": "https://github.com/Mathiya578/King-Mathiya-MD-Whatsapp-Bot",
   "logo": "https://i.ibb.co/PcQYF7c/djt.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
