@@ -21,19 +21,19 @@ global.APIKeys = {
 //customize settings\\
 global.owner = ['94779499811']
 global.premium = ['94779499811']
-global.ownernomer = 'Your Number'
-global.ownername = 'KING MATHIYA'
-global.botname = 'KING MATHIYA MD'
-global.footer = '©MATHIYAMD.'
-global.ig = 'https://github.com/nexusNw'
+global.ownernomer = '94779499811'
+global.ownername = 'King Mathiya'
+global.botname = 'King Mathiya-MD'
+global.footer = ' King Mathiya Public Edition'
+global.ig = 'https://github.com/darkalphaxteam'
 global.region = 'India, South India, Kerala'
-global.sc = 'https://github.com/nexusNw/Gojo-Satoru'
-global.myweb = 'https://youtube.com/channel/UCqoUjPvDdb0kjXNYdvPPpHQ'
-global.packname = 'Gojo-Satoru'
-global.author = 'MATHIYA '
+global.sc = 'https://github.com/darkalphaxteam/Queen-Bixby-MD'
+global.myweb = 'https://youtube.com/channel/UCvpyOCBCaBSCdv4QolnO0WQ'
+global.packname = 'King Mathiya MD'
+global.author = 'Sohan '
 global.sessionName = 'session'
-global.prefa = ['','!','.','👩‍❤️‍👨','♦️','🎲']
-global.sp = '⭔'
+global.prefa = ['','!','.','🐦','🐤','🗿']
+global.sp = '🚢'
 global.mess = {
     success: 'Done ✓',
     admin: 'This Feature Is Only For Admin!',
@@ -42,7 +42,7 @@ global.mess = {
     group: 'Feature Used Only For Groups!',
     private: 'Features Used Only For Private Chat!',
     bot: 'This Feature Is Only For Bot',
-    wait: 'Wait A minute...',
+    wait: 'Please Wait...',
     error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
@@ -59,7 +59,7 @@ global.mess = {
    umpanawal: 5,
    potionawal: 1
 }
-global.thumb = fs.readFileSync('./GojoMedia/Mathiya3jpg.jpg')
+global.thumb = fs.readFileSync('./GojoMedia/mathiya123.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
