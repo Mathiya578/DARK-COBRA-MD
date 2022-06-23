@@ -52,6 +52,7 @@
     "request": "^2.88.2",
     "remove.bg": "^1.3.0",
     "scrape-primbon": "^1.1.0",
+    "@bochilteam/scraper": "^2.0.0",
     "util": "^0.12.4",
     "yargs": "^17.2.1",
     "xfarr-api": "^1.0.2",
@@ -69,5 +70,5 @@
   "bugs": {
     "url": "https://github.com/nexusNw/Gojo-Satoru/issues"
   },
-  "homepage": "https.github.com/Mathiya578/King-Mathiya-MD-Bot#readme"
+  "homepage": "https://github.com/nexusNw/Gojo-Satoru#readme"
 }
