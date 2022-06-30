@@ -1494,14 +1494,14 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 UPVOTE DARK-COBRA 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 │
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 DEVOTE DARK-COBRA〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 │
@@ -1535,14 +1535,14 @@ let buttonsVote = [
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 UPVOTE DARK-COBRA 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 DEVOTE DARK-COBRA 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1577,14 +1577,14 @@ ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 UPVOTE DARK-COBRA 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 DEVOTE DARK-COBRA〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1615,14 +1615,14 @@ teks_vote = `*◤ VOTE ◢*
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔 UPVOTE DARK-COBRA〕
 │ 
 ┋⫸ Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔 DEVOTE DARK-COBRA〕
 │ 
 ┋⫸ Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1757,22 +1757,22 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: '♡Black Panther🖤',
+                                    displayText: '♡DARK-COBRA-MD🖤',
                                     url: `${sc}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube💦',
+                                    displayText: 'DARK-COBRA-YOUTUBE💦',
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '🎀DARK-COBRA-MENU🎀',
                                     id: 'menu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🧚Black Panther Owner🖤',
+                                    displayText: '🧚DARK-COBRA-OWNERr🖤',
                                     id: 'owner'
                                 }
                             }]
@@ -1791,26 +1791,26 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: '♡Black Panther🖤',
+                                    displayText: '♡DARK-COBRA-MD🖤',
                                     url: `${sc}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube💦',
+                                    displayText: 'DARK-COBRA-YOUTUBE💦',
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '🎀DARK-COBRA-MENU🎀',
                                     id: 'menu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🧚Black Panther Owner🖤',
+                                    displayText: '🧚DARK-COBRA-OWNER🖤',
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `◤ GOJO-SATORU HERE 🎉◢\n\n${text}`
+                      let txt = `◤DARK-COBRA HERE 🎉◢\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
@@ -2064,7 +2064,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: images },
-                    caption: `*-------◤ GIMAGE SEARCH ◢-------*
+                    caption: `*-------◤ DARK-COBRA-MD-IMAGE-SEARCH ◢-------*
 🤠 *Query* : ${text}
 🔗 *Media Url* : ${images}`,
                     footer: GojoMdNx.user.name,
@@ -2088,7 +2088,7 @@ break
                     image: { url: anu.thumbnail },
                     caption: `
 ╔═════ೋೋ═════╗
-   🧚𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗕𝗼𝘁🖤
+   🧚DARK-COBRA-MD-BOT🖤
 🖤 Title : ${anu.title} 🧚
 🖤 Ext : Search 🧚
 🖤 ID : ${anu.videoId} 🧚
@@ -2160,7 +2160,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply('What Are you Looking For??')
                 await reply(mess.wait)
                 nexusnw.Webtoons(q).then(async data => {
-                    let txt = `*------◤ WEBTOONS-SEARCH ◢------*\n\n`
+                    let txt = `*------◤ DARK-COBRA-WEBTOONS-SEARCH ◢------*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
                         txt += `*👍🏻 Like :* ${i.like}\n`
@@ -2178,7 +2178,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply('What Are You Looking For??')
                 await reply(mess.wait)
                 nexusnw.Drakor(`${text}`).then(async data => {
-                    let txt = `*-----◤ DRAKOR-SEARCH ◢-----*\n\n`
+                    let txt = `*-----◤ DARK-COBRA-DRAKOR-SEARCH ◢-----*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
                         txt += `*📆 Years :* ${i.years}\n`
@@ -2195,7 +2195,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`What Anime Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Anime(q).then(async data => {
-                    let txt = `*-------◤ ANIME-SEARCH ◢-------*\n\n`
+                    let txt = `*-------◤DARK-COBRA-ANIME-SEARCH ◢-------*\n\n`
                     for (let i of data) {
                         txt += `*📫 Title :* ${i.judul}\n`
                         txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
@@ -2220,7 +2220,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`What Anime Character Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Character(q).then(async data => {
-                    let txt = `*---◤ CHARACTER-SEARCH ◢---*\n\n`
+                    let txt = `*---◤DARK-COBRA-CHARACTER-SEARCH ◢---*\n\n`
                     for (let i of data) {
                         txt += `*📫 Character :* ${i.character}\n`
                         txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
@@ -2244,7 +2244,7 @@ case 'webtonsearch': case 'webtoon':
                 if (!text) return reply(`What Manga Are You Looking For??`)
                 await reply(mess.wait)
                 nexusnw.Manga(`${text}`).then(async data => {
-                    let txt = `*------◤ MANGA-SEARCH ◢------*\n\n`
+                    let txt = `*------◤ DARK-COBRA-MANGA-SEARCH ◢------*\n\n`
                     for (let i of data) {
                          txt += `*📫 Title :* ${i.judul}\n`
                          txt += `*📚 Url :* ${i.link}\n-----------------------------------------------------\n`
@@ -2831,7 +2831,7 @@ case 'webtonsearch': case 'webtoon':
 		        image: { url: anu.author.profilePic },
 			caption: `
 ╔═════ೋೋ═════╗
- 🖤𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗕𝗼𝘁🧚
+ 🖤DARK-COBRA-MD-BOT🧚
 🖤 Title : ${anu.title} 🧚
 🖤 Author : ${anu.author.name} 🧚
 🖤 Like : ${anu.like} 🧚
@@ -3046,7 +3046,7 @@ View List Of Messages With ${prefix}listmsg`)
             case 'listmsg': {
                 let msgs = JSON.parse(fs.readFileSync('./database/database.json'))
 	        let seplit = Object.entries(global.db.data.database).map(([nama, isi]) => { return { nama, ...isi } })
-		let teks = '◤ DATABASE LIST ◢\n\n'
+		let teks = '◤DARK-COBRA-DATABASE LIST ◢\n\n'
 		for (let i of seplit) {
 		    teks += `💫 *Name :* ${i.nama}\n💫 *Type :* ${getContentType(i.message).replace(/Message/i, '')}\n────────────────────────\n\n`
 	        }
@@ -3314,30 +3314,30 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 └┬──────────────┈ ⳹
    │✑  Please Select The Button Below
    └───────────────┈ ⳹
- 🖤𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗠𝗗🧚`,
+ 🖤DARK-COBRA-MD-BOT🧚`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube💦',
+                                    displayText: 'DARK-COBRA-YOUTUBE💦',
                                     url: `${myweb}`
                                 }
                             }, {
                             	urlButton: {
-                                displayText: '♡Black Panther🖤',
+                                displayText: '♡DARK-COBRA-MD-BOT🖤',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '🍇DARK-COBRA-ALL-MENU🍇',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '🍒DARK-COBRA-LIST-MENU🍒',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🧚Black Panther Owner🖤',
+                                    displayText: '🧚DARK-COBRA-OWNER🖤',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3356,7 +3356,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')}, 
+                            jpegThumbnail: fs.readFileSync('./GojoMedia/cobra123.jpg')}, 
                             hydratedFooterText: `
 ┌─❖
 │◤ Hi 👋 ◢
@@ -3375,30 +3375,30 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 └┬──────────────┈ ⳹
    │✑  Please Select The Button Below
    └───────────────┈ ⳹
-🖤𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗠𝗗🧚`,
+🖤DARK-COBRA-MD-BOT🧚`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube💦',
+                                    displayText: 'DARK-COBRA-YOUTUBE💦',
                                     url: `${myweb}`
                                 }
                             }, {
                             	urlButton: {
-                                displayText: '♡Black Panther🖤',
+                                displayText: '♡DARK-COBRA-MD-BOT🖤',
                                     url: `${sc}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu🎉',
+                                    displayText: 'DARK-COBRA-ALL-MENU🎉',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu⭐',
+                                    displayText: 'DARK-COBRA-LIST-MENU⭐',
                                     id: `${prefix}command`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner🖤',
+                                    displayText: 'DARK-COBRA-OWNER🖤',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3420,7 +3420,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Main Features",
 								"rows": [
 									{
-										"title": "Main Menu",
+										"title": "DARK COBRA MAIN MENU",
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}mainmenu`
 									}
@@ -3430,77 +3430,77 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Bot Features",
 								"rows": [
 									{
-										"title": "All Menu",
+										"title": "DARK COBRA ALL MENU",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu",
+										"title": "DARK COBRA OWNER MENU",
 										"description": "Displays The List Of Owner Features",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu",
+										"title": "DARK COBRA GROUP MENU",
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}groupmenu`
 										},
 									{
-										"title": "Rpg Menu",
+										"title": "DARK COBRA RPG MENU",
 										"description": "Displays The List Of Rpg Features",
 										"rowId": `${prefix}rpgmenu`
 									},
 									{
-										"title": "Download Menu",
+										"title": "DARK COBRA DOWNLOAD MENU",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Search Menu",
+										"title": "DARK COBRA SEARCH MENU",
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-											"title": "Random Menu",
+											"title": "DARK COBRA RANDOM MENU",
 										"description": "Displays The List Of Random Features",
 										"rowId": `${prefix}randommenu`
 										},
 										{
-											"title": "Random Anime Menu",
+											"title": "DARK COBRA RANDOM ANIME MENU",
 										"description": "Displays The List Of Random Anime Features",
 										"rowId": `${prefix}randomanimemenu`
 										},
 										{
-											"title": "Fun Menu",
+											"title": "DARK COBRA FUN MENU",
 										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-											"title": "Convert Menu",
+											"title": "DARK COBRA CONVERT MENU",
 										"description": "Displays The List Of Convert Features",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu",
+											"title": "DARK COBRA DATBASE MENU",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-											"title": "Voice Changer Menu",
+											"title": "DARK COBRA VOICE CHANGER MENU",
 										"description": "Displays The List Of Voice Changing Features",
 										"rowId": `${prefix}voicechangermenu`
 										},
 										{
-											"title": "TXT-to-IMG Menu",
+											"title": "COBRA TXT-to-IMG MENU",
 										"description": "Displays The List Of Textpro Features",
 										"rowId": `${prefix}textpromenu`
 										},
 										{
-											"title": "Islamic Menu",
+											"title": "DARK-COBRA ISLAMIC MENU
 										"description": "Displays The List Of Islamic Features",
 										"rowId": `${prefix}islamicmenu`
 										},
 										{
-											"title": "Horoscope Menu",
+											"title": "DARk COBRA HOROSCOPE MENU",
 										"description": "Displays The List Of Horoscope Features",
 										"rowId": `${prefix}horoscopemenu`
 										}
@@ -3510,7 +3510,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Chat With Fellow Users",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu",
+										"title": "COBRA ANONYMOUS CHAT MENU",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymouschatmenu`
 									}
@@ -3534,17 +3534,17 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/yQBM4yx/wp1869937.png' }, caption: `*Hi Bro ${m.pushName}*\nDonation section now open💦,♡ Join► https://chat.whatsapp.com/E64FnOpGLrYK9CR3a24uc1 \n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/yQBM4yx/wp1869937.png' }, caption: `*Hi Bro ${m.pushName}*\nDonation section now open💦,♡ Join► https://chat.whatsapp.com/FhlbDbbR1KXKMaNb8GXxqr \n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
-                reply(`GitHub : https://github.com/BlackPanther-svg/BLACK-PANTHER-MD-V2\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
+                reply(`GitHub : https://github.com/Mathiya578/DARK-COBRA-MD-WHATSAPP-BOT\n Dont Forget To Give Star\n\nYouTube : ${myweb}\nDont Forget To Watch Tutorial`)
             }
             break
 case 'allmenu': {
   	anu = `
 ┏┄◤ *${botname}* ◢┄┄◈ 
-┋╔══☯︎◤ MAIN ◢☯︎
+┋╔══☯︎◤COBRA ALL MENU◢☯︎
 ┋⫸ ${prefix}alive
 ┋⫸ ${prefix}script
 ┋⫸ ${prefix}speedtest
@@ -3558,7 +3558,7 @@ case 'allmenu': {
 ┋⫸ ${prefix}listgc
 ┋⫸ ${prefix}donate
 ┋⫸ ${prefix}report [bug]
-┋⫸══✪◤ OWNER ◢ ☯︎
+┋⫸══✪◤COBRA OWNER◢ ☯︎
 ┋⫸ ${prefix}chat [option]
 ┋⫸ ${prefix}join [link]
 ┋⫸ ${prefix}leave
@@ -3568,7 +3568,7 @@ case 'allmenu': {
 ┋⫸ ${prefix}bcall [text]
 ┋⫸ ${prefix}setppbot [image]
 ┋⫸ ${prefix}setexif
-┋⫸══✪◤ GROUP ◢ ☯︎      
+┋⫸══✪◤COBRA GROUP MENU◢ ☯︎      
 ┋⫸${prefix}grouplink
 ┋⫸${prefix}ephemeral [option]
 ┋⫸${prefix}setgcpp [image]
@@ -3589,7 +3589,7 @@ case 'allmenu': {
 ┋⫸${prefix}upvote
 ┋⫸${prefix}checkvote
 ┋⫸${prefix}delvote
-┋⫸══☯︎◤ RPG ◢ ☯︎
+┋⫸══☯︎◤COBRA RPG MENU ◢ ☯︎
 ┋⫸${prefix}hunting
 ┋⫸${prefix}mining
 ┋⫸${prefix}heal
@@ -3599,7 +3599,7 @@ case 'allmenu': {
 ┋⫸${prefix}leaderboard
 ┋⫸${prefix}buy [option]
 ┋⫸${prefix}sell [option]
-┋⫸═✪◤ DOWNLOADER ◢☯︎
+┋⫸═✪◤COBRA DOWNLODER MENU◢☯︎
 ┋⫸${prefix}ytmp3 [url|quality]
 ┋⫸${prefix}ytmp4 [url|quality]
 ┋⫸${prefix}getmusic [yt link]
@@ -3607,7 +3607,7 @@ case 'allmenu': {
 ┋⫸${prefix}umma [query]
 ┋⫸${prefix}joox [query]
 ┋⫸${prefix}soundcloud [url]
-┋⫸══✪◤ SEARCHER ◢ ☯︎
+┋⫸══✪◤COBRA SEARCHER MENU◢ ☯︎
 ┋⫸${prefix}play [query]
 ┋⫸${prefix}song [query]
 ┋⫸${prefix}yts [query]
@@ -3619,11 +3619,11 @@ case 'allmenu': {
 ┋⫸${prefix}ytsearch [query]
 ┋⫸${prefix}ringtone [query]
 ┋⫸${prefix}webtoon [query]
-┋⫸══✪◤ RANDOM ◢☯︎
+┋⫸══✪◤COBRA RANDOM MENU◢☯︎
 ┋⫸${prefix}coffee
 ┋⫸${prefix}animequote (indo)
 ┋⫸${prefix}couplepp
-┋⫸═✪◤ RANDOM ANIME ◢☯︎
+┋⫸═✪◤COBRA RANDOM ANIME MENU ◢☯︎
 ┋⫸${prefix}loli
 ┋⫸${prefix}bully
 ┋⫸${prefix}cuddle
@@ -3651,7 +3651,7 @@ case 'allmenu': {
 ┋⫸${prefix}poke
 ┋⫸${prefix}dance
 ┋⫸${prefix}cringe
-┋⫸══✪◤ FUN ◢ ☯︎
+┋⫸══✪◤COBRA FUN MENU ◢ ☯︎
 ┋⫸ ${prefix}how [text
 ┋⫸ ${prefix}when [text]
 ┋⫸ ${prefix}is [text]
@@ -3697,7 +3697,7 @@ case 'allmenu': {
 ┋⫸ ${prefix}guess [option]
 ┋⫸ ${prefix}math [mode]
 ┋⫸ ${prefix}suitpvp [tag]
-┋⫸═══✪◤ CONVERTER ◢ ☯︎
+┋⫸═══✪◤COBRA CONVERTER MENU ◢ ☯︎
 ┋⫸ ${prefix}toimage [reply stick]
 ┋⫸ ${prefix}sticker [reply img|gif]
 ┋⫸ ${prefix}emojimix [moji+moji]
@@ -3710,7 +3710,7 @@ case 'allmenu': {
 ┋⫸ ${prefix}ebinary [reply txt]
 ┋⫸ ${prefix}dbinary [reply txt]
 ┋⫸ ${prefix}styletext [text]
-┋⫸══✪◤ DATABASE ◢ ☯︎
+┋⫸══✪◤COBRA DATABASE MENU◢ ☯︎
 ┋⫸ ${prefix}setcmd
 ┋⫸ ${prefix}listcmd
 ┋⫸ ${prefix}delcmd
@@ -3719,12 +3719,12 @@ case 'allmenu': {
 ┋⫸ ${prefix}listmsg
 ┋⫸ ${prefix}getmsg
 ┋⫸ ${prefix}delmsg
-┋⫸═✪◤ ANONYMOUS CHAT ◢☯︎
+┋⫸═✪◤COBRA ANONYMOUS CHAT MENU◢☯︎
 ┋⫸${prefix}anonymous
 ┋⫸${prefix}start
 ┋⫸${prefix}next
 ┋⫸${prefix}leave
-┋⫸═✪◤ VOICE CHANGER ◢☯︎
+┋⫸═✪◤ COBRA VOICE CHANGER MENU ◢☯︎
 ┋⫸${prefix}bass [reply aud]
 ┋⫸${prefix}blown [reply aud]
 ┋⫸${prefix}deep [reply aud]
@@ -3736,9 +3736,9 @@ case 'allmenu': {
 ┋⫸${prefix}robot [reply aud]
 ┋⫸${prefix}slow [reply aud]
 ┋⫸${prefix}squirrel [reply aud]
-┋⫸══✪◤ ISLAMIC ◢☯︎
+┋⫸══✪◤COBRA ISLAMIC MENU◢☯︎
 ┋⫸${prefix}juzamma
-┋⫸══✪◤ HOROSCOPE ◢☯︎
+┋⫸══✪◤COBRA HOROSCOPE MENU◢☯︎
 ┋⫸${prefix}nomorhoki (indo)
 ┋⫸${prefix}artimimpi (indo)
 ┋⫸${prefix}artinama (indo)
@@ -3769,23 +3769,23 @@ case 'allmenu': {
 ┋⫸${prefix}masasubur (indo)
 ┋⫸${prefix}zodiak (indo)
 ┋⫸${prefix}shio (indo)
-┋╚═══════✍︎🖤𝗕𝗹𝗮𝗰𝗸 𝗣𝗮𝗻𝘁𝗵𝗲𝗿 𝗠𝗗🧚
+┋╚═══════✍︎🖤DARK COBRA MD BOT🧚
 ┗┄◤ *Created By ${ownername}*  𖠌◢┄◈`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/gojo.jpg')},
+                            jpegThumbnail: fs.readFileSync('./GojoMedia/cobra123.jpg')},
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube💦',
+                                    displayText: 'DARK COBRA YOUTUBE💦',
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🧚Black Panther Owner🖤',
+                                    displayText: '🧚DARK COBRA OWNER🖤',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3799,7 +3799,7 @@ case 'mainmenu':
 var unicorn = await getBuffer(picak+'Main Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ MAIN ◢
+┋╔═✪◤DARK-COBRA-MAIN-MENU◢
 ┋⫸ ${prefix}alive
 ┋⫸ ${prefix}script
 ┋⫸ ${prefix}speedtest
@@ -3814,14 +3814,14 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸ ${prefix}donate
 ┋⫸ ${prefix}report [bug]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 
 case 'grupmenu': case 'groupmenu':
 var unicorn = await getBuffer(picak+'Group Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ GROUP ◢	        
+┋╔═✪◤COBRA GROUP MENU ◢	        
 ┋⫸${prefix}grouplink
 ┋⫸${prefix}ephemeral [option]
 ┋⫸${prefix}setgcpp [image]
@@ -3843,14 +3843,14 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}checkvote
 ┋⫸${prefix}delvote
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 
 case 'rpgmenu':
 var unicorn = await getBuffer(picak+'Rpg Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ RPG ◢	        
+┋╔═✪◤COBRA RPG MENU◢	        
 ┋⫸${prefix}hunting
 ┋⫸${prefix}mining
 ┋⫸${prefix}heal
@@ -3861,14 +3861,14 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}buy [option]
 ┋⫸${prefix}sell [option]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 
 case 'funmenu':
 var unicorn = await getBuffer(picak+'Fun Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ FUN ◢	        
+┋╔═✪◤COBRA FUN MENU◢	        
 ┋⫸ ${prefix}how [text
 ┋⫸ ${prefix}when [text]
 ┋⫸ ${prefix}is [text]
@@ -3914,14 +3914,14 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸ ${prefix}math [mode]
 ┋⫸ ${prefix}suitpvp [tag]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 
 case 'ownermenu':
 var unicorn = await getBuffer(picak+'Owner Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ OWNER ◢	        
+┋╔═✪◤COBRA OWNER◢	        
 ┋⫸${prefix}grouplink
 ┋⫸${prefix}ephemeral [option]
 ┋⫸${prefix}setgcpp [image]
@@ -3943,13 +3943,13 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}checkvote
 ┋⫸${prefix}delvote
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ DOWNLOADER ◢	        
+┋╔═✪◤COBRA DOWNLOADER ◢	        
 ┋⫸${prefix}ytmp3 [url|quality]
 ┋⫸${prefix}ytmp4 [url|quality]
 ┋⫸${prefix}getmusic [yt link]
@@ -3958,13 +3958,13 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}joox [query]
 ┋⫸${prefix}soundcloud [url]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'searchmenu':
 var unicorn = await getBuffer(picak+'Search Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ SEARCHER ◢	        
+┋╔══✪◤COBRA SEARCHER ◢	        
 ┋⫸${prefix}play [query]
 ┋⫸${prefix}song [query]
 ┋⫸${prefix}yts [query]
@@ -3977,24 +3977,24 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}ringtone [query]
 ┋⫸${prefix}webtoon [query]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'randommenu':
 var unicorn = await getBuffer(picak+'Random Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ RANDOM ◢	        
+┋╔══✪◤COBRA RANDOM ◢	        
 ┋⫸${prefix}coffee
 ┋⫸${prefix}animequote (indo)
 ┋⫸${prefix}couplepp
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔✪◤ RANDOM ANIME ◢	        
+┋╔✪◤COBRA RANDOM ANIME ◢	        
 ┋⫸${prefix}loli
 ┋⫸${prefix}bully
 ┋⫸${prefix}cuddle
@@ -4023,13 +4023,13 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}dance
 ┋⫸${prefix}cringe
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'textpromenu':
 var unicorn = await getBuffer(picak+'Text Pro Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═✪◤ TEXT PRO ◢	        
+┋╔═✪◤COBRA TEXT PRO ◢	        
 ┋⫸ ${prefix}3dchristmas [txt]
 ┋⫸ ${prefix}3ddeepsea [txt]
 ┋⫸ ${prefix}americanflag [txt]
@@ -4062,13 +4062,13 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸ ${prefix}blackpink [txt]
 ┋⫸ ${prefix}gluetext [txt]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ CONVERTER ◢	        
+┋╔══✪◤COBRA CONVERTER ◢	        
 ┋⫸ ${prefix}toimage [reply stick]
 ┋⫸ ${prefix}sticker [reply img|gif]
 ┋⫸ ${prefix}emojimix [moji+moji]
@@ -4081,13 +4081,13 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸ ${prefix}ebinary [reply txt]
 ┋⫸ ${prefix}dbinary [reply txt]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔═══✪◤ DATABASE ◢	        
+┋╔═══✪◤COBRA DATABASE ◢	        
 ┋⫸ ${prefix}setcmd
 ┋⫸ ${prefix}listcmd
 ┋⫸ ${prefix}delcmd
@@ -4097,34 +4097,34 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸ ${prefix}getmsg
 ┋⫸ ${prefix}delmsg
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ ANONYMOUS CHAT ◢	        
+┋╔══✪◤COBRA ANONYMOUS CHAT ◢	        
 ┋⫸${prefix}anonymous
 ┋⫸${prefix}start
 ┋⫸${prefix}next
 ┋⫸${prefix}leave
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'islamicmenu':
 var unicorn = await getBuffer(picak+'Islamic Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ ISLAMIC ◢	        
+┋╔══✪◤COBRA ISLAMIC ◢	        
 ┋⫸${prefix}juzamma
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ VOICE CHANGER ◢	        
+┋╔══✪◤COBRA VOICE CHANGER ◢	        
 ┋⫸${prefix}bass [reply aud]
 ┋⫸${prefix}blown [reply aud]
 ┋⫸${prefix}deep [reply aud]
@@ -4137,13 +4137,13 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}slow [reply aud]
 ┋⫸${prefix}squirrel [reply aud]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏┄◤ ${botname} ◢┄┄◈ 
-┋╔══✪◤ HOROSCOPE ◢	        
+┋╔══✪◤COBRA HOROSCOPE ◢	        
 ┋⫸${prefix}nomorhoki (indo)
 ┋⫸${prefix}artimimpi (indo)
 ┋⫸${prefix}artinama (indo)
@@ -4175,12 +4175,12 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}zodiak (indo)
 ┋⫸${prefix}shio (indo)
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-Thanks to My fiends and my knowledge 💦`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡Black Panther🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚Black Panther Owner🖤","id": 'owner'}}] )
+Thanks to My fiends and my knowledge 💦`,unicorn, [{"urlButton": {"displayText": "YouTube💦","url": `${myweb}`}},{"urlButton": {"displayText": "♡DARK-COBRA-MD🖤","url": `${sc}`}},{"quickReplyButton": {"displayText": "🖤Donate🧚","id": 'donate'}},{"quickReplyButton": {"displayText": "🧚DARK COBRA OWNER🖤","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
