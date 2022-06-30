@@ -1,5 +1,5 @@
 <p align="center">
-<img src="MathiyaBot.jpg" alt="nz" width="350"/>
+<img src="cobra1234.jpg" alt="nz" width="350"/>
 </p>
 
 ## King-Mathiya-MD-WhatsApp-Bot
