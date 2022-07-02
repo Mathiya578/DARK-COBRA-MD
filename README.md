@@ -40,7 +40,7 @@ Add FFmpeg to PATH environment variable
 
 * Scan QR In Your Whatsapp From [Here][https://replit.com/@SohanMathisha/KinGMathiyaHWaBoTQr?v=1 ]
 * Fork This Repo By Clicking [Here](https://github.com/Mathiya578/DARK-COBRA-MD-WHATSAPP-BOT/fork)
-* then Deploy The Bot From [Here]([https://heroku.com/deploy?template=https://github.com/Mathiya578/DARK-COBRA-MD-WHATSAPP-BOT]) 
+* then Deploy The Bot From [Here][https://heroku.com/deploy?template=https://github.com/Mathiya578/DARK-COBRA-MD-WHATSAPP-BOT] 
 * Wait 5-10 Min To Deploy 
 * After Deploying On The Worker And Check The Logs
 
