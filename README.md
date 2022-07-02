@@ -2,11 +2,11 @@
 <img src="cobra1234.jpg" alt="nz" width="350"/>
 </p>
 
-## King-Mathiya-MD-WhatsApp-Bot
+## DARK-COBRA-MD-WHATSAPP-BOT
 
 > <a href="https://youtu.be/W-QCp2fWRTo">
 
-> [Automated Multi Device whatsapp bot created]([https://github.com/Mathiya578/KingMathiya-MD-WhatsApp_Bot)) by (github.com/Mathiya578)
+> [Automated Multi Device whatsapp bot created]([https://github.com/Mathiya578/DARK-COBRA-MD-WHATSAPP-BOT) by (github.com/Mathiya578)
 
 > Dont forget to give a star bro.🥲 IF Heroku Deploy seems Error, Fork This Repo And Try Deploy Again
 
@@ -39,8 +39,8 @@ Add FFmpeg to PATH environment variable
 <b><details><summary>Start via Heroku</summary></b>
 
 * Scan QR In Your Whatsapp From [Here][https://replit.com/@SohanMathisha/KinGMathiyaHWaBoTQr?v=1 ]
-* Fork This Repo By Clicking [Here](https://github.com/nexusNw/Gojo-Satoru/fork)
-* then Deploy The Bot From [Here](https://heroku.com/deploy)
+* Fork This Repo By Clicking [Here](https://github.com/Mathiya578/DARK-COBRA-MD-WHATSAPP-BOT/fork)
+* then Deploy The Bot From [Here]([https://heroku.com/deploy?template=https://github.com/Mathiya578/DARK-COBRA-MD-WHATSAPP-BOT]) 
 * Wait 5-10 Min To Deploy 
 * After Deploying On The Worker And Check The Logs
 
@@ -48,24 +48,12 @@ Add FFmpeg to PATH environment variable
 
 
 
-<!-- Installation via Termux -->
-<b><details><summary>Installation on Termux</summary></b>
-```bash
-> apt update
-> apt upgrade
-> pkg update && pkg upgrade
-> pkg install bash
-> pkg install libwebp
-> pkg install git -y
-> pkg install nodejs -y 
-> pkg install ffmpeg -y 
-> pkg install wget
-> pkg install imagemagick -y
-> git clone https://github.com/nexusNw/Gojo-Satoru
-> cd Gojo-Satoru
-> npm install
-```
-</details>
+
+
+
+
+
+
 
 <!-- Edit -->
 <b><details><summary>Edit settings.js</summary></b>
