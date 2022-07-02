@@ -6,7 +6,7 @@
 
 > <a href="https://youtu.be/W-QCp2fWRTo">
 
-> [Automated Multi Device whatsapp bot created]([https://github.com/Mathiya578/DARK-COBRA-MD-WHATSAPP-BOT) by (github.com/Mathiya578)
+> [Automated Multi Device whatsapp bot created]([https://github.com/Mathiya578/DARK-COBRA-MD-WHATSAPP-BOT) by [github.com/Mathiya578] 
 
 > Dont forget to give a star bro.🥲 IF Heroku Deploy seems Error, Fork This Repo And Try Deploy Again
 
