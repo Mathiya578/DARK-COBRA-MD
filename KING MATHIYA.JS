@@ -1494,14 +1494,14 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔DARK COBRA UPVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 │
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔DARK COBRA DEVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 │
@@ -1535,14 +1535,14 @@ let buttonsVote = [
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔DARK COBRA UPVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔DARK COBRA DEVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1577,14 +1577,14 @@ ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔DARK COBRA UPVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔DARK COBRA DEVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1615,14 +1615,14 @@ teks_vote = `*◤ VOTE ◢*
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔DARK COBRA UPVOTE 〕
 │ 
 ┋⫸ Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔DARK COBRA DEVOTE 〕
 │ 
 ┋⫸ Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1757,7 +1757,7 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: '♡Black Panther🖤',
+                                    displayText: '♡DARk COBRA🖤',
                                     url: `${sc}`
                                 }
                             }, {
@@ -1772,7 +1772,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🧚Black Panther Owner🖤',
+                                    displayText: '🧚Dark Cobra Owner🖤',
                                     id: 'owner'
                                 }
                             }]
@@ -1791,7 +1791,7 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: '♡Black Panther🖤',
+                                    displayText: '♡DARK COBRA🖤',
                                     url: `${sc}`
                                 }
                             }, {
@@ -1801,12 +1801,12 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🎀Menu🎀',
+                                    displayText: '🎀Dark Cobra Menu🎀',
                                     id: 'menu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🧚Black Panther Owner🖤',
+                                    displayText: '🧚Dark Cobra Owner🖤',
                                     id: 'owner'
                                 }
                             }]
