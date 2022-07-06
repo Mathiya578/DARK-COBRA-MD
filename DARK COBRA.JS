@@ -3799,7 +3799,7 @@ case 'allmenu': {
                         hydratedTemplate: {
                             hydratedContentText: anu,
                             locationMessage: {
-                            jpegThumbnail: fs.readFileSync('./GojoMedia/cobra123.jpg')},
+                            jpegThumbnail: fs.readFileSync('./GojoMedia/darkcobra123.jpg')},
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
