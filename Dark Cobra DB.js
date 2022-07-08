@@ -269,27 +269,79 @@ const reply = (teks) => {
         }
 
         //auto reply 
-        for (let anji of setik){
-				if (budy === anji){
-					result = fs.readFileSync(`./GojoMedia/sticker/${anji}.webp`)
+        for (let hi of setik){
+				if (budy === hi){
+					result = fs.readFileSync(`./GojoMedia/sticker/${Hi}.webp`)
 					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
-			}
-			for (let anju of vien){
-				if (budy === anju){
-					result = fs.readFileSync(`./GojoMedia/vn/${anju}.mp3`)
+	for (let ko of setik){
+				if (budy === ko){
+					result = fs.readFileSync(`./GojoMedia/sticker/${Ko}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}	
+	for (let ane of setik){
+				if (budy === ane){
+					result = fs.readFileSync(`./GojoMedia/sticker/${ane}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	for (let gm of setik){
+				if (budy === gm){
+					result = fs.readFileSync(`./GojoMedia/sticker/${gm}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	for (let gn of setik){
+				if (budy === gn){
+					result = fs.readFileSync(`./GojoMedia/sticker/${gn}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	for (let huththa of setik){
+				if (budy === huththa){
+					result = fs.readFileSync(`./GojoMedia/sticker/${huththa}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	for (let love of setik){
+				if (budy ===love){
+					result = fs.readFileSync(`./GojoMedia/sticker/${mathiya}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	for (let sudu of setik){
+				if (budy ===sudu){
+					result = fs.readFileSync(`./GojoMedia/sticker/${manika}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}	
+	for (let pakaya of setik){
+				if (budy === pakaya){
+					result = fs.readFileSync(`./GojoMedia/sticker/${pakaya}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	for (let pala of setik){
+				if (budy === pala){
+					result = fs.readFileSync(`./GojoMedia/sticker/${pala}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	for (let Alive of setik){
+				if (budy === Alive){
+					result = fs.readFileSync(`./GojoMedia/sticker/${Bot}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}	
+	for (let patiyo of setik){
+				if (budy === patiyo){
+					result = fs.readFileSync(`./GojoMedia/sticker/${sudu}.webp`)
+					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	for (let hello of vien){
+				if (budy === hello){
+					result = fs.readFileSync(`./GojoMedia/vn/${Gojo}.mp3`)
 					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
-			}
-			for (let anjh of imagi){
-				if (budy === anjh){
-					result = fs.readFileSync(`./GojoMedia/image/${anjh}.jpg`)
+	for (let romantic of imagi){
+				if (budy === romantic){
+					result = fs.readFileSync(`./GojoMedia/image/${mathiya3}.jpg`)
 					GojoMdNx.sendMessage(m.chat, { image: result }, { quoted: m })
 					}
-			}
-					for (let anjh of videox){
-				if (budy === anjh){
-					result = fs.readFileSync(`./GojoMedia/vid/${anjh}.mp4`)
+	for (let mathiya of videox){
+				if (budy === mathiya){
+					result = fs.readFileSync(`./GojoMedia/vid/${mathiyamedia}.mp4`)
 					GojoMdNx.sendMessage(m.chat, { video: result }, { quoted: m })
 					}
 				  }
@@ -1465,7 +1517,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
-let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝ 
+let teks = `╚»˙·٠•●♥ Tag All Members♥●•٠·˙«╝ 
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
@@ -1507,14 +1559,14 @@ let teks = `╚»˙·٠•●♥ Tag All ♥●•٠·˙«╝
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔DARK COBRA UPVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 │
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔DARK COBRA DEVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 │
@@ -1548,14 +1600,14 @@ let buttonsVote = [
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔DARK COBRA  UPVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔DARK COBRA  DEVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1590,14 +1642,15 @@ ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔DARK COBRA  UPVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+	
+┌〔DARK COBRA DEVOTE 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1628,14 +1681,14 @@ teks_vote = `*◤ VOTE ◢*
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔 UPVOTE 〕
+┌〔DARK COBRA UPVOTE 〕
 │ 
 ┋⫸ Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔 DEVOTE 〕
+┌〔DARK COBRA DEVOTE 〕
 │ 
 ┋⫸ Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
