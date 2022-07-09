@@ -1635,14 +1635,14 @@ let teks = `╚»˙·٠•●♥ Tag All Members♥●•٠·˙«╝
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔DARK COBRA UPVOTE 〕
+┌〔⚜️DARK COBRA UPVOTE ⚜️〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 │
 │ 
 └────
 
-┌〔DARK COBRA DEVOTE 〕
+┌〔⚜️DARK COBRA DEVOTE⚜️〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 │
@@ -1676,14 +1676,14 @@ let buttonsVote = [
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔DARK COBRA  UPVOTE 〕
+┌〔⚜️DARK COBRA  UPVOTE⚜️〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔DARK COBRA  DEVOTE 〕
+┌〔⚜️DARK COBRA  DEVOTE⚜️〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1718,7 +1718,7 @@ ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔DARK COBRA  UPVOTE 〕
+┌〔⚜️DARK COBRA  UPVOTE⚜️ 〕
 │ 
 ┋⫸ Total: ${vote[m.chat][1].length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1726,7 +1726,7 @@ ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')
 └────
 
 	
-┌〔DARK COBRA DEVOTE 〕
+┌〔⚜️DARK COBRA DEVOTE ⚜️〕
 │ 
 ┋⫸ Total: ${vote[m.chat][2].length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1757,14 +1757,14 @@ teks_vote = `*◤ VOTE ◢*
 
 *Reason:* ${vote[m.chat][0]}
 
-┌〔DARK COBRA UPVOTE 〕
+┌〔⚜️DARK COBRA UPVOTE ⚜️〕
 │ 
 ┋⫸ Total: ${upvote.length}
 ${vote[m.chat][1].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 │ 
 └────
 
-┌〔DARK COBRA DEVOTE 〕
+┌〔⚜️DARK COBRA DEVOTE ⚜️〕
 │ 
 ┋⫸ Total: ${devote.length}
 ${vote[m.chat][2].map((v, i) => `┋⫸ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
@@ -1899,12 +1899,12 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: '♡Black Panther🖤',
+                                    displayText: '⚜️DARK COBRA⚜️',
                                     url: `${sc}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube💦',
+                                    displayText: '↗️YouTube↗️',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1914,11 +1914,11 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🧚💗Queen Ashiya Owner🖤',
+                                    displayText: '⚜️DARK COBRA OWNEE⚜️' ,
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `◤ 💗Queen Ashiya🧚🎉 ◢\n\n${text}`
+                      let txt = `◤ ⚜️DARK COBRA⚜️◢\n\n${text}`
                       GojoMdNx.send5ButImg(i, txt, GojoMdNx.user.name, global.thumb, btn)
                     }
                 reply(`Successful Sending Broadcast To ${anu.length} Group(s)`)
@@ -1933,12 +1933,12 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: '♡Black Panther🖤',
+                                    displayText: '⚜️DARK COBRA⚜️',
                                     url: `${sc}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: 'YouTube💦',
+                                    displayText: '↗️YouTube↗️',
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1948,11 +1948,11 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '💗Queen Ashiya Owner🖤',
+                                    displayText: '❤️❤️DARK COBRA OWNER',
                                     id: 'owner'
                                 }
                             }]
-                      let txt = `◤ 💗Queen Ashiya HERE 🎉◢\n\n${text}`
+                      let txt = `◤ ⚜️DARK COBRA HERE⚜️◢\n\n${text}`
                       GojoMdNx.send5ButImg(yoi, txt, GojoMdNx.user.name, global.thumb, btn)
 		}
 		reply('Broadcast Success')
@@ -2229,17 +2229,17 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-╔═════ೋೋ═════╗
-   💗Queen Ashiya🧚 𝗕𝗼𝘁🖤
-❤ Title : ${anu.title} 🧚
-❤ Ext : Search 🧚
-❤ ID : ${anu.videoId} 🧚
-❤ Duration : ${anu.timestamp} 🧚
-❤ Viewes : ${anu.views} 🧚
-❤ Uploaded On : ${anu.ago} 🧚
-❤ Author : ${anu.author.name} 🧚
-❤ Channel : ${anu.author.url} 🧚
-❤ Description : ${anu.description} 🧚
+༺═─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝⃝─⃝─⃝─═༻
+⚜️ DARK COBRA MD BOT⚜️
+❤ Title : ${anu.title} 🥰
+❤ Ext : Search 🥰
+❤ ID : ${anu.videoId}
+❤ Duration : ${anu.timestamp} 
+❤ Viewes : ${anu.views} 🥰
+❤ Uploaded On : ${anu.ago} 🥰
+❤ Author : ${anu.author.name} 🥰
+❤ Channel : ${anu.author.url} 🥰
+❤ Description : ${anu.description} 🥰
 ❤ Url : ${anu.url}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
@@ -2966,19 +2966,19 @@ case 'webtonsearch': case 'webtoon':
 		let anu = await umma(isUrl(text)[0])
 		if (anu.type == 'video') {
 		    let buttons = [
-                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🖤Song💦'}, type: 1},
+                        {buttonId: `ytmp3 ${anu.media[0]} 128kbps`, buttonText: {displayText: '🔰Song🔰'}, type: 1},
                         {buttonId: `ytmp4 ${anu.media[0]} 360p`, buttonText: {displayText: '📽️Video📽️'}, type: 1}
                     ]
 		    let buttonMessage = {
 		        image: { url: anu.author.profilePic },
 			caption: `
-╔═════ೋೋ═════╗
- DARK COBRA BOT
-🖤 Title : ${anu.title} 🧚
-🖤 Author : ${anu.author.name} 🧚
-🖤 Like : ${anu.like} 🧚
-🖤 Caption : ${anu.caption} 🧚
-🖤 Url : ${anu.media[0]} 🧚
+༺═─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝⃝─⃝─⃝─═༻
+⚜️ DARK COBRA BOT⚜️
+🖤 Title : ${anu.title} 🥰
+🖤 Author : ${anu.author.name} 🥰
+🖤 Like : ${anu.like} 🥰
+🖤 Caption : ${anu.caption} 🥰
+🖤 Url : ${anu.media[0]} 
 To Download Media, Please Click One Of The Buttons Below Or Enter The ytmp3/ytmp4 Command With The Url Above
 `,
 			footer: GojoMdNx.user.name,
@@ -3441,8 +3441,8 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `┌─❖
 │◤ Hi 👋 ◢
 └┬❖ ◤ ${pushname} ◢
-┌┤✑DARK COBRA MULTIDEVICE BOT
-││✑  🖤🖐️!!
+┌┤✑⚜️DARK COBRA MULTIDEVICE BOT⚜️
+││✑😍༺═─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝─⃝⃝─⃝─⃝─═༻😍!!
 │└───────────────┈ ⳹
 │ ◤ BOT INFO ◢
 │☬ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -3456,7 +3456,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 └┬──────────────┈ ⳹
    │✑  Please Select The Button Below
    └───────────────┈ ⳹
- DARK COBRA MD`,
+ 🥰DARK COBRA MD🥰`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube',
@@ -3526,7 +3526,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 
 ❖Contact Developer :http:wa.me/94779499811╰─────────────────☘︎
 
-┌┤✑Dark Cobra  Multi Device Bot
+┌┤✑⚜️Dark Cobra  Multi Device Bot⚜️
 └───────────────┈ ⳹
 │ ◤ BOT INFO ◢
 │💞 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
@@ -3540,7 +3540,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 └┬──────────────┈ ⳹
    │✑  Please Select The Button Below
    └───────────────┈ ⳹
-DARK COBRA`,
+🥰DARK COBRA🥰`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'YouTube',
@@ -3700,7 +3700,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
     case 'donasi': case 'donate': case 'sewabot': case 'sewa': {
-                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/9cxWs4C' }, caption: `*Hi Bro ${m.pushName}*\nDonation section now open💦,♡ Contact Developer► http:wa.me/94779499811 \n` }, { quoted: m })
+                GojoMdNx.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/9cxWs4C' }, caption: `*Welcome ${m.pushName}*\nDonation section now open💦,♡ Contact Developer► http:wa.me/94779499811 \n` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
@@ -3946,12 +3946,12 @@ case 'allmenu': {
                             hydratedFooterText: `${pushname}`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube',
+                                    displayText: '↗️YouTube↗️',
                                     url: `${myweb}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Dark Cobra Owner',
+                                    displayText: '❤️Dark Cobra Owner❤️',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3980,7 +3980,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸ ${prefix}donate
 ┋⫸ ${prefix}report [bug]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube ","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️ ","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 
 case 'grupmenu': case 'groupmenu':
@@ -4009,7 +4009,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}checkvote
 ┋⫸${prefix}delvote
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 
 case 'rpgmenu':
@@ -4027,7 +4027,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}buy [option]
 ┋⫸${prefix}sell [option]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 
 case 'funmenu':
@@ -4080,7 +4080,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸ ${prefix}math [mode]
 ┋⫸ ${prefix}suitpvp [tag]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 
 case 'ownermenu':
@@ -4109,7 +4109,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}checkvote
 ┋⫸${prefix}delvote
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'downloadmenu':
 var unicorn = await getBuffer(picak+'Downloader Menu')
@@ -4124,7 +4124,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}joox [query]
 ┋⫸${prefix}soundcloud [url]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'searchmenu':
 var unicorn = await getBuffer(picak+'Search Menu')
@@ -4143,7 +4143,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}ringtone [query]
 ┋⫸${prefix}webtoon [query]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'randommenu':
 var unicorn = await getBuffer(picak+'Random Menu')
@@ -4154,7 +4154,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}animequote (indo)
 ┋⫸${prefix}couplepp
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'randomanimemenu':
 var unicorn = await getBuffer(picak+'Random Anime Menu')
@@ -4189,7 +4189,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}dance
 ┋⫸${prefix}cringe
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'textpromenu':
 var unicorn = await getBuffer(picak+'Text Pro Menu')
@@ -4228,7 +4228,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸ ${prefix}blackpink [txt]
 ┋⫸ ${prefix}gluetext [txt]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'convertmenu':
 var unicorn = await getBuffer(picak+'Converter Menu')
@@ -4247,7 +4247,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸ ${prefix}ebinary [reply txt]
 ┋⫸ ${prefix}dbinary [reply txt]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4263,7 +4263,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸ ${prefix}getmsg
 ┋⫸ ${prefix}delmsg
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'databasemenu':
 var unicorn = await getBuffer(picak+'Database Menu')
@@ -4275,7 +4275,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}next
 ┋⫸${prefix}leave
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'islamicmenu':
 var unicorn = await getBuffer(picak+'Islamic Menu')
@@ -4284,7 +4284,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋╔══✪◤ ISLAMIC MENU◢	        
 ┋⫸${prefix}juzamma
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'voicechangermenu':
 var unicorn = await getBuffer(picak+'Voice Changer Menu')
@@ -4303,7 +4303,7 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}slow [reply aud]
 ┋⫸${prefix}squirrel [reply aud]
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'horoscopemenu':
 var unicorn = await getBuffer(picak+'Horoscope Menu')
@@ -4341,12 +4341,12 @@ await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┋⫸${prefix}zodiak (indo)
 ┋⫸${prefix}shio (indo)
 ┋╚═════════════✪
-┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+┗┄┄◤ ${pushname} ◢┄◈`,unicorn, [{"urlButton": {"displayText": "↗️YouTube↗️","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
 case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
-Thanks Nice Coding 💦`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "DARK COBRA","url": `${sc}`}},{"quickReplyButton": {"displayText": "Donate","id": 'donate'}},{"quickReplyButton": {"displayText": "Dark Cobra Owner","id": 'owner'}}] )
+Thanks Nice Coding 💦`,unicorn, [{"urlButton": {"displayText": "YouTube","url": `${myweb}`}},{"urlButton": {"displayText": "⚜️DARK COBRA⚜️","url": `${sc}`}},{"quickReplyButton": {"displayText": "♻️Donate♻️","id": 'donate'}},{"quickReplyButton": {"displayText": "❤️Dark Cobra Owner❤️","id": 'owner'}}] )
 break
             default:
                 if (budy.startsWith('=>')) {
