@@ -329,19 +329,19 @@ const reply = (teks) => {
 					result = fs.readFileSync(`./GojoMedia/sticker/${sudu}.webp`)
 					GojoMdNx.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
-	for (let hello of vien){
+	for (let helo of vien){
 				if (budy === hello){
-					result = fs.readFileSync(`./GojoMedia/vn/${Gojo}.mp3`)
+					result = fs.readFileSync(`./GojoMedia/vn/${helo}.mp3`)
 					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 	for (let Adarei of vien){
 				if (budy === Adarei){
-					result = fs.readFileSync(`./GojoMedia/vn/${Adarei}.mp3`)
+					result = fs.readFileSync(`./GojoMedia/vn/${adarei}.mp3`)
 					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
-	for (let Baba eka of vien){
-				if (budy ===Baba eka){
-					result = fs.readFileSync(`./GojoMedia/vn/${Baba eka}.mp3`)
+	for (let hm of vien){
+				if (budy ===hm){
+					result = fs.readFileSync(`./GojoMedia/vn/${Hmm}.mp3`)
 					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}		
 	for (let baduwa of vien){
@@ -351,7 +351,7 @@ const reply = (teks) => {
 					}
 	for (let balaganin of vien){
 				if (budy === balaganin){
-					result = fs.readFileSync(`./GojoMedia/vn/${balaganin}.mp3`)
+					result = fs.readFileSync(`./GojoMedia/vn/${Balaganin}.mp3`)
 					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 	for (let balli of vien){
@@ -381,17 +381,17 @@ const reply = (teks) => {
 					}
 	for (let ponnaya of vien){
 				if (budy === ponnaya){
-					result = fs.readFileSync(`./GojoMedia/vn/${ponnaya}.mp3`)
+					result = fs.readFileSync(`./GojoMedia/vn/${Ponnaya}.mp3`)
 					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 	for (let pakaya of vien){
 				if (budy === pakaya){
-					result = fs.readFileSync(`./GojoMedia/vn/${pakaya}.mp3`)
+					result = fs.readFileSync(`./GojoMedia/vn/${Pakaya}.mp3`)
 					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 	for (let pala of vien){
 				if (budy === pala){
-					result = fs.readFileSync(`./GojoMedia/vn/${pala}.mp3`)
+					result = fs.readFileSync(`./GojoMedia/vn/${Pala}.mp3`)
 					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}	
 	for (let umma of vien){
@@ -406,9 +406,54 @@ const reply = (teks) => {
 					}
 	for (let wesi of vien){
 				if (budy === wesi){
-					result = fs.readFileSync(`./GojoMedia/vn/${wesi}.mp3`)
+					result = fs.readFileSync(`./GojoMedia/vn/${vesi}.mp3`)
+					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+	for (let enne of vien){
+				if (budy === enne){
+					result = fs.readFileSync(`./GojoMedia/vn/${enne}.mp3`)
+					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+	for (let epa wela of vien){
+				if (budy === epa wela){
+					result = fs.readFileSync(`./GojoMedia/vn/${Epawela}.mp3`)
+					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+	for (let gahanawa of vien){
+				if (budy === gahanawa){
+					result = fs.readFileSync(`./GojoMedia/vn/${Gahanawa}.mp3`)
+					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}		
+	for (let mathiya of vien){
+				if (budy === mathiya){
+					result = fs.readFileSync(`./GojoMedia/vn/${mathiya}.mp3`)
+					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}		
+	for (let Gn of vien){
+				if (budy === Gn){
+					result = fs.readFileSync(`./GojoMedia/vn/${Gn}.mp3`)
+					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+	for (let Gm of vien){
+				if (budy === Gm){
+					result = fs.readFileSync(`./GojoMedia/vn/${Gm}.mp3`)
+					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}		
+	for (let love of vien){
+				if (budy === love){
+					result = fs.readFileSync(`./GojoMedia/vn/${love}.mp3`)
 					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}	
+	for (let huththa of vien){
+				if (budy === huththa){
+					result = fs.readFileSync(`./GojoMedia/vn/${Huththa}.mp3`)
+					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+	for (let paraya of vien){
+				if (budy === paraya){
+					result = fs.readFileSync(`./GojoMedia/vn/${Paraya}.mp3`)
+					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}				
 
 	for (let romantic of imagi){
 				if (budy === romantic){
@@ -420,6 +465,11 @@ const reply = (teks) => {
 					result = fs.readFileSync(`./GojoMedia/vid/${mathiyamedia}.mp4`)
 					GojoMdNx.sendMessage(m.chat, { video: result }, { quoted: m })
 					}
+        for (let bot of vien){
+				if (budy === bot){
+					result = fs.readFileSync(`./GojoMedia/vn/${Bot}.mp3`)
+					GojoMdNx.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}				
 				  }
 
       //Mute Chat\\
