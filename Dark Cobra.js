@@ -2002,7 +2002,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making BY Cobra"}, {quoted:m})
 }
    break
   case 'whitebear':{
@@ -2012,7 +2012,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making By Cobra "}, {quoted:m})
 }
    break
 case 'thunder2':{
@@ -2022,7 +2022,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making By Cobra"}, {quoted:m})
 }
    break
 case 'blackpink':{
@@ -2032,7 +2032,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making By Cobra"}, {quoted:m})
 }
    break
 case 'neon':{
@@ -2042,7 +2042,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making By Cobra"}, {quoted:m})
 }
    break
 case 'matrix2':{
@@ -2052,7 +2052,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making By Cobra"}, {quoted:m})
 }
    break
 case 'sky':{
@@ -2062,7 +2062,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'joker':{
@@ -2072,7 +2072,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'magma':{
@@ -2082,7 +2082,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'sand':{
@@ -2092,7 +2092,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'pencil':{
@@ -2102,7 +2102,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'graffiti':{
@@ -2112,7 +2112,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'metallic':{
@@ -2122,7 +2122,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'steel':{
@@ -2132,7 +2132,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'harrypotter':{
@@ -2142,7 +2142,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'underwater':{
@@ -2152,7 +2152,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'luxury':{
@@ -2162,7 +2162,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'glue2':{
@@ -2172,7 +2172,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'fabric':{
@@ -2182,7 +2182,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'neonlight':{
@@ -2192,7 +2192,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'lava':{
@@ -2202,7 +2202,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'toxic':{
@@ -2212,7 +2212,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'ancient':{
@@ -2222,7 +2222,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'christmas2':{
@@ -2232,7 +2232,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'sci_fi':{
@@ -2242,7 +2242,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'rainbow':{
@@ -2252,7 +2252,7 @@ if (isBanChat) return reply(mess.banChat)
      let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'classic':{
@@ -2262,7 +2262,7 @@ let link = `https://textpro.me/video-game-classic-8-bit-text-effect-1037.html`
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'watercolor2':{
@@ -2272,7 +2272,7 @@ let link = `https://textpro.me/create-a-free-online-watercolor-text-effect-1017.
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making byy Cobra!"}, {quoted:m})
 }
    break
 case 'halloween2':{
@@ -2282,7 +2282,7 @@ let link = `https://textpro.me/create-a-spooky-halloween-text-effect-online-1046
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'halloweenfire':{
@@ -2292,7 +2292,7 @@ let link = `https://textpro.me/halloween-fire-text-effect-940.html`
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'writing':{
@@ -2302,7 +2302,7 @@ let link = `https://textpro.me/sand-writing-text-effect-online-990.html`
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'foggy':{
@@ -2312,7 +2312,7 @@ let link = `https://textpro.me/write-text-on-foggy-window-online-free-1015.html`
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'marvel':{
@@ -2322,7 +2322,7 @@ let link = `https://textpro.me/create-logo-style-marvel-studios-ver-metal-972.ht
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'skeleton2':{
@@ -2332,7 +2332,7 @@ let link = `https://textpro.me/create-halloween-skeleton-text-effect-online-1047
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'sketch':{
@@ -2342,7 +2342,7 @@ let link = `https://textpro.me/create-a-sketch-text-effect-online-1044.html`
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'wonderful':{
@@ -2352,7 +2352,7 @@ let link = `https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.ht
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'cool':{
@@ -2362,7 +2362,7 @@ let link = `https://textpro.me/create-a-cool-graffiti-text-on-the-wall-1010.html
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'collwall':{
@@ -2372,7 +2372,7 @@ let link = `https://textpro.me/create-cool-wall-graffiti-text-effect-online-1009
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'multicolor2':{
@@ -2382,7 +2382,7 @@ let link = `https://textpro.me/online-multicolor-3d-paper-cut-text-effect-1016.h
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'batman':{
@@ -2392,7 +2392,7 @@ let link = `https://textpro.me/make-a-batman-logo-online-free-1066.html`
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'juice':{
@@ -2402,7 +2402,7 @@ let link = `https://textpro.me/fruit-juice-text-effect-861.html`
 let anui = await textpro(link, q)
      reply(`Wait a moment while making the logo about 1 minute`) 
      console.log(anui)
-    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Here you go!"}, {quoted:m})
+    XeonBotInc.sendMessage(from, {image:{url:anui}, caption:"Making by Cobra"}, {quoted:m})
 }
    break
 case 'pornhub':{
@@ -2416,7 +2416,7 @@ inilogo9 = args.join(" ")
 var logo9 = inilogo9.split('|')[1]
     let anu = await textpro("https://textpro.me/pornhub-style-logo-online-generator-free-977.html", [`${logo4}`,`${logo9}`])
 console.log(anu)
-XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Here you go!"},{quoted:m})
+XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Making by Cobra"},{quoted:m})
 }
 break
 case 'retro':{
@@ -2430,7 +2430,7 @@ inilogo9 = args.join(" ")
 var logo9 = inilogo9.split('|')[1]
     let anu = await textpro("https://textpro.me/create-3d-retro-text-effect-online-free-1065.html", [`${logo4}`,`${logo9}`])
 console.log(anu)
-XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Here you go!"},{quoted:m})
+XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Making by Cobra"},{quoted:m})
 }
 break
 case 'horror':{
@@ -2444,7 +2444,7 @@ inilogo9 = args.join(" ")
 var logo9 = inilogo9.split('|')[1]
     let anu = await textpro("https://textpro.me/create-a-cinematic-horror-text-effect-1045.html", [`${logo4}`,`${logo9}`])
 console.log(anu)
-XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Here you go!"},{quoted:m})
+XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Making by Cobra"},{quoted:m})
 }
 break
 case '8bit':{
@@ -2458,7 +2458,7 @@ inilogo9 = args.join(" ")
 var logo9 = inilogo9.split('|')[1]
     let anu = await textpro("https://textpro.me/video-game-classic-8-bit-text-effect-1037.html", [`${logo4}`,`${logo9}`])
 console.log(anu)
-XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Here you go!"},{quoted:m})
+XeonBotInc.sendMessage(from,{image:{url:anu}, caption:"Making by Cobra"},{quoted:m})
 }
 break
 case 'textmaker': {
