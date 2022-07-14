@@ -298,38 +298,264 @@ _sewa.expiredCheck(XeonBotInc, sewa)
 
 //group target by xeon\\
 const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz1}`}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./CobraMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz1}`}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz2}`}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./CobraMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz2}`}}}, { quoted: m})
         }
-        //auto reply by xeon
+        //auto reply by Sohan
   //if (Autoreply) //remove forwad slashes to make it autoreply on off
-        for (let anji of setik){
-				if (budy === anji){
-					result = fs.readFileSync(`./XeonMedia/sticker/${anji}.webp`)
+        for (let patiyo of setik){
+				if (budy === patiyo){
+					result = fs.readFileSync(`./CobraMedia/sticker/${akke}.webp`)
 					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
+	 for (let asahaneda of setik){
+				if (budy === asahaneda){
+					result = fs.readFileSync(`./CobraMedia/sticker/${asahaneda}.webp`)
+					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	 for (let doni of setik){
+				if (budy === doni){
+					result = fs.readFileSync(`./CobraMedia/sticker/${besti}.webp`)
+					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					} 
+         for (let hukahan of setik){
+				if (budy === hukahan){
+					result = fs.readFileSync(`./CobraMedia/sticker/${hukamuda}.webp`)
+					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+        for (let katawahapan of setik){
+				if (budy === katawahapan){
+					result = fs.readFileSync(`./CobraMedia/sticker/${katawahapan}.webp`)
+					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	for (let alive of setik){
+				if (budy === alive){
+					result = fs.readFileSync(`./CobraMedia/sticker/${mathiya}.webp`)
+					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+	for (let thana of setik){
+				if (budy === thana){
+					result = fs.readFileSync(`./CobraMedia/sticker/${thana}.webp`)
+					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					}
+
 			}
 			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
-			for (let anju of vien){
-				if (budy === anju){
-					result = fs.readFileSync(`./XeonMedia/audio/${anju}.mp3`)
+			for (let Baduwa of vien){
+				if (budy === Baduwa){
+					result = fs.readFileSync(`./CobraMedia/audio/${Baduwa}.mp3`)
 					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
+			for (let Adarei of vien){
+				if (budy === Adarei){
+					result = fs.readFileSync(`./CobraMedia/audio/${Adarei}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let balaganin of vien){
+				if (budy === balaganin){
+					result = fs.readFileSync(`./CobraMedia/audio/${Balaganin}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let besikaya of vien){
+				if (budy === besikaya){
+					result = fs.readFileSync(`./CobraMedia/audio/${Besikaya}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let alive of vien){
+				if (budy === alive){
+					result = fs.readFileSync(`./CobraMedia/audio/${Bot}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let Bye of vien){
+				if (budy === Bye){
+					result = fs.readFileSync(`./CobraMedia/audio/${Bye}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let Enne of vien){
+				if (budy === Enne){
+					result = fs.readFileSync(`./CobraMedia/audio/${Enne}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let Epawela of vien){
+				if (budy === Epawela){
+					result = fs.readFileSync(`./CobraMedia/audio/${Epawela}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			or (let gahanawa of vien){
+				if (budy === gahanawa){
+					result = fs.readFileSync(`./CobraMedia/audio/${Gahanawa}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let Gm of vien){
+				if (budy === Gm){
+					result = fs.readFileSync(`./CobraMedia/audio/${Gm}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let Gn of vien){
+				if (budy === Gn){
+					result = fs.readFileSync(`./CobraMedia/audio/${Gn}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let helo of vien){
+				if (budy === helo){
+					result = fs.readFileSync(`./CobraMedia/audio/${Helo}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let Hmm of vien){
+				if (budy === Hmm){
+					result = fs.readFileSync(`./CobraMedia/audio/${Hmm}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let huththa of vien){
+				if (budy === huththa){
+					result = fs.readFileSync(`./CobraMedia/audio/${Huththa}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let love of vien){
+				if (budy === love){
+					result = fs.readFileSync(`./CobraMedia/audio/${Love}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let pakaya of vien){
+				if (budy === pakaya){
+					result = fs.readFileSync(`./CobraMedia/audio/${Pakaya}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let pala of vien){
+				if (budy === pala){
+					result = fs.readFileSync(`./CobraMedia/audio/${Pala}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let paraya of vien){
+				if (budy === paraya){
+					result = fs.readFileSync(`./CobraMedia/audio/${Paraya}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let ponnaya of vien){
+				if (budy === ponnaya){
+					result = fs.readFileSync(`./CobraMedia/audio/${Ponnaya}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let umma of vien){
+				if (budy === umma){
+					result = fs.readFileSync(`./CobraMedia/audio/${Umma}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let adarei of vien){
+				if (budy === adarei){
+					result = fs.readFileSync(`./CobraMedia/audio/${adarei}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let baduwa of vien){
+				if (budy === baduwa){
+					result = fs.readFileSync(`./CobraMedia/audio/${baduwa}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let besikaya of vien){
+				if (budy === besikaya){
+					result = fs.readFileSync(`./CobraMedia/audio/${besikaya}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let enne of vien){
+				if (budy === enne){
+					result = fs.readFileSync(`./CobraMedia/audio/${enne}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let epawela of vien){
+				if (budy === epawela){
+					result = fs.readFileSync(`./CobraMedia/audio/${epawela}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let fuck of vien){
+				if (budy === fuck){
+					result = fs.readFileSync(`./CobraMedia/audio/${fuck}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let gn of vien){
+				if (budy === gn){
+					result = fs.readFileSync(`./CobraMedia/audio/${gn}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let helo of vien){
+				if (budy === helo){
+					result = fs.readFileSync(`./CobraMedia/audio/${helo}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let hmm of vien){
+				if (budy === hmm){
+					result = fs.readFileSync(`./CobraMedia/audio/${hmm}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let huththa of vien){
+				if (budy === huththa){
+					result = fs.readFileSync(`./CobraMedia/audio/${huththa}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let love of vien){
+				if (budy === love){
+					result = fs.readFileSync(`./CobraMedia/audio/${love}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let mathiya of vien){
+				if (budy === mathiya){
+					result = fs.readFileSync(`./CobraMedia/audio/${mathiya}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let Pakaya of vien){
+				if (budy === Pakaya){
+					result = fs.readFileSync(`./CobraMedia/audio/${pakaya}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let Pala of vien){
+				if (budy === Pala){
+					result = fs.readFileSync(`./CobraMedia/audio/${pala}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let pamka of vien){
+				if (budy === pamka){
+					result = fs.readFileSync(`./CobraMedia/audio/${pamka}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let paraya of vien){
+				if (budy === paraya){
+					result = fs.readFileSync(`./CobraMedia/audio/${paraya}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let pinnaya of vien){
+				if (budy === pinnaya){
+					result = fs.readFileSync(`./CobraMedia/audio/${pinnaya}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let Ponnaya of vien){
+				if (budy === Ponnaya){
+					result = fs.readFileSync(`./CobraMedia/audio/${ponnaya}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}	
+			for (let vesi of vien){
+				if (budy === vesi){
+					result = fs.readFileSync(`./CobraMedia/audio/${vesi}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}
+			for (let wesi of vien){
+				if (budy === wesi){
+					result = fs.readFileSync(`./CobraMedia/audio/${wesi}.mp3`)
+					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					}					
 			}
 			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
 			for (let anjh of imagi){
 				if (budy === anjh){
-					result = fs.readFileSync(`./XeonMedia/image/${anjh}.jpg`)
+					result = fs.readFileSync(`./CobraMedia/image/${anjh}.jpg`)
 					XeonBotInc.sendMessage(m.chat, { image: result }, { quoted: m })
 					}
 			}
 			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
 					for (let anjh of videox){
 				if (budy === anjh){
-					result = fs.readFileSync(`./XeonMedia/video/${anjh}.mp4`)
+					result = fs.readFileSync(`./CobraMedia/video/${anjh}.mp4`)
 					XeonBotInc.sendMessage(m.chat, { video: result }, { quoted: m })
 					}
 				  }
