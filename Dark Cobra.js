@@ -6801,7 +6801,7 @@ if (isBan) return reply(mess.ban)
                 var capti = `*YOUTUBE VIDEO*\n\n*${themeemoji}Title* : ${media.title}\n*${themeemoji}File size* : ${media.filesizeF}\n*${themeemoji}Url* : ${isUrl(text)}\n*${themeemoji}Ext* : Mp4\n*${themeemoji}Resoultion* : ${args[1] || '360p'}`
                 var buf = await getBuffer(media.thumb)
                 XeonBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${capti}` }, { quoted: m })
-                XeonBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, jpegThumbnail:buf, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `Here you go!` }, { quoted: m }).catch((err) => reply(mess.error))
+                XeonBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, jpegThumbnail:buf, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `Dark Cobra` }, { quoted: m }).catch((err) => reply(mess.error))
             }
             break
             case 'ytdl': {
@@ -6859,7 +6859,7 @@ case 'ytmp32':
       axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
 .then((a) => {
    
-      XeonBotInc.sendMessage(from, { video: { url: dl_link }, caption: "By Aldi Store" }, { quoted: m })
+      XeonBotInc.sendMessage(from, { video: { url: dl_link }, caption: "By Dark Cobra" }, { quoted: m })
       })
      
 })
@@ -6946,7 +6946,7 @@ let dwnld = await quoted.download()
 let { floNime } = require('./lib/uploader')
 let fatGanss = await floNime(dwnld)
 buffer = `http://api.lolhuman.xyz/api/editor/invert?apikey=${lolkey}&img=${fatGanss.result.url}`
-XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Made By Dark Cobra"}, {quoted:m})
 }
 }
 break
@@ -6955,7 +6955,7 @@ if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 reply(mess.wait)
 		anu = `http://api.lolhuman.xyz/api/toloserti?apikey=${lolkey}&name=${q}`
-		XeonBotInc.sendMessage(from, {image:{url:anu}, caption:"Here you go!"}, {quoted:m})
+		XeonBotInc.sendMessage(from, {image:{url:anu}, caption:"Made By Dark Cobra"}, {quoted:m})
 		break
 case 'wasted':
 case 'imagewasted':{
@@ -6968,7 +6968,7 @@ let dwnld = await quoted.download()
 let { floNime } = require('./lib/uploader')
 let fatGa = await floNime(dwnld)
 buffer = `https://api.lolhuman.xyz/api/editor/wasted?apikey=${lolkey}&img=${fatGa.result.url}`
-XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Made By Dark Cobra"}, {quoted:m})
 }
 }
 break
@@ -6982,7 +6982,7 @@ let dwnld = await quoted.download()
 let { floNime } = require('./lib/uploader')
 let fatGan = await floNime(dwnld)
 buffer = `https://api.lolhuman.xyz/api/editor/jail?apikey=${lolkey}&img=${fatGan.result.url}`
-XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Here you go!"}, {quoted:m})
+XeonBotInc.sendMessage(from, {image:{url:buffer}, caption:"Made By Dark Cobra"}, {quoted:m})
 }
 }
 break
@@ -7360,7 +7360,7 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
      "send abusive words in any grup, excepting this grup, and send screenshot proof here"
 ]
               const xeondare = dare[Math.floor(Math.random() * dare.length)]
-              buffer = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
+              buffer = await getBuffer(`https://i.ibb.co/9HVNJ6w`)
               XeonBotInc.sendMessage(from, { image: buffer, caption: '_You choose DARE_\n'+ xeondare }, {quoted:m})
               break
                             break
@@ -7459,7 +7459,7 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
     "do you play pubg, if you then send ur id number"
 ]
               const xeontruth = truth[Math.floor(Math.random() * truth.length)]
-              buffer = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
+              buffer = await getBuffer(`https://i.ibb.co/9HVNJ6w`)
               XeonBotInc.sendMessage(from, { image: buffer, caption: '_You choose TRUTH_\n'+ xeontruth }, {quoted:m})
               break
               
